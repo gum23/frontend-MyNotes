@@ -1,4 +1,4 @@
-const API = "http://192.168.1.49:3000/tasks";
+const API = "https://backend-mynotes.onrender.com/tasks";
 
 export const getTasks = async () => {
   const res = await fetch(API);
